@@ -46,12 +46,14 @@ Despite these simplifications, the core rules from the initial proposal are reta
 
 ## Game Interface:
 ### Figure 1: Start of Game
+![Start of Game](images/start_of_game.jpg)
 - Displays players' cards and previous bets.
 - Players input the number of cards they will bet, then each card individually.
 - Previous bets are tracked with an extra element (0) for clarity.
 - Calling a previous bet triggers a comparison of the last bet with all game cards.
 
 ### Figure 2: End Game
+![End Game](images/end_of_game.jpg)
 - Shows the final state of the game, indicating any discrepancies and resetting the previous bets array each round.
 - Due to incorrect card comparison and card increment logic, the game might display wrong results but eventually reflects the endgame status.
 
@@ -61,3 +63,9 @@ Despite these simplifications, the core rules from the initial proposal are reta
 
 ## Conclusion:
 Despite these challenges, the game "EE" provides a unique betting experience with strategic bluffing and risk assessment. Future improvements can enhance input validation and the overall user experience.
+## Resources:
+[1] benwrk, Benjapol Worakan, “Insertion Sort - MIPS Assembly Version” GitHub. [Online]. Available: https://gist.github.com/benwrk/9d2c8c735885348a270b
+
+[2] Missouri State University, “Introduction to MIPS Assembly Language Programming,” Open Textbook Library. [Online]. Available: https://courses.missouristate.edu/kenvollmar/mars/help/MacrosHelp.html
+
+[3] Chukwu, “CS 271: Computer Architecture and Assembly Language Programming”, GitHub. Available: https://github.com/lionthroat/cs271-project.git
